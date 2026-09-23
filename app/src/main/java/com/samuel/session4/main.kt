@@ -136,9 +136,9 @@ fun main() {
 
     println("===CHALLENGE 7===")
     var favoriteStreamingApp: String? = null
-    println("${favoriteStreamingApp ?: "No streaming app membership"}")
+    println(favoriteStreamingApp ?: "No streaming app membership")
     favoriteStreamingApp = "Netflix"
-    println("${favoriteStreamingApp ?: "No streaming app membership"}")
+    println(favoriteStreamingApp ?: "No streaming app membership")
 
 }
 
